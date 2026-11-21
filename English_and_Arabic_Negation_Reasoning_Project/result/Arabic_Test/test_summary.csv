@@ -1,0 +1,15 @@
+﻿model,prompt_id,prompt_name,n,overall_accuracy_pct,affirmative_accuracy_pct,negated_accuracy_pct,matched_pair_n,matched_pair_accuracy_pct,translated_accuracy_pct,arabic_authored_accuracy_pct,predicted_true_pct,gain_vs_baseline_pp
+ibm-granite/granite-3.0-2b-instruct,P1,Baseline,800,58.0,63.5,52.5,400,21.25,60.25,55.75,19.75,0.0
+ibm-granite/granite-3.0-2b-instruct,P2,Warning_1,800,54.375,57.75,51.0,400,12.25,57.5,51.25,9.625,-3.625
+ibm-granite/granite-3.0-2b-instruct,P3,Warning_2,800,57.25,62.25,52.25,400,18.75,60.5,54.0,13.75,-0.75
+ibm-granite/granite-3.0-2b-instruct,P4,Persona_1,800,55.5,62.25,48.75,400,23.25,55.75,55.25,57.5,-2.5
+ibm-granite/granite-3.0-2b-instruct,P5,Persona_2,800,54.125,58.0,50.25,400,13.25,56.0,52.25,13.875,-3.875
+ibm-granite/granite-3.0-2b-instruct,P6,Balanced_Evaluation,800,57.875,63.0,52.75,400,30.25,58.75,57.0,44.375,-0.125
+ibm-granite/granite-3.0-2b-instruct,P7,Short_General_Control,800,51.5,53.0,50.0,400,7.25,51.75,51.25,90.75,-6.5
+Qwen/Qwen1.5-1.8B-Chat,P1,Baseline,800,47.875,51.25,44.5,400,18.5,47.25,48.5,78.375,0.0
+Qwen/Qwen1.5-1.8B-Chat,P2,Warning_1,800,51.0,52.5,49.5,400,35.75,50.5,51.5,60.0,3.125
+Qwen/Qwen1.5-1.8B-Chat,P3,Warning_2,800,48.875,52.5,45.25,400,25.5,47.5,50.25,66.375,1.0
+Qwen/Qwen1.5-1.8B-Chat,P4,Persona_1,800,50.625,52.25,49.0,400,31.25,50.5,50.75,65.875,2.75
+Qwen/Qwen1.5-1.8B-Chat,P5,Persona_2,800,49.0,50.5,47.5,400,16.25,48.25,49.75,82.75,1.125
+Qwen/Qwen1.5-1.8B-Chat,P6,Balanced_Evaluation,800,49.25,50.0,48.5,400,14.5,49.0,49.5,84.75,1.375
+Qwen/Qwen1.5-1.8B-Chat,P7,Short_General_Control,800,49.0,51.0,47.0,400,25.0,48.25,49.75,71.75,1.125

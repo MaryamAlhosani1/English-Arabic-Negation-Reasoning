@@ -1,0 +1,51 @@
+{
+  "partition": "dev",
+  "n": 200,
+  "candidate_prompts": [
+    {
+      "id": "P6_V2",
+      "name": "Negation_Scope",
+      "template": "حدد أداة النفي إن وجدت، وحدد الجزء الذي تنفيه، ثم قيّم صحة المعنى النهائي للعبارة وفقاً للحقائق.\nهل العبارة التالية صحيحة (True) أم خاطئة (False)؟\n{statement_ar}",
+      "instruction_word_count": 17
+    },
+    {
+      "id": "P6_V3",
+      "name": "Negation_and_Truth",
+      "template": "ميّز بين وجود النفي وصحة العبارة. قد تكون العبارة المنفية صحيحة أو خاطئة. احكم على معناها الكامل وفقاً للحقائق.\nهل العبارة التالية صحيحة (True) أم خاطئة (False)؟\n{statement_ar}",
+      "instruction_word_count": 19
+    },
+    {
+      "id": "P6_V4",
+      "name": "Balanced_Evaluation",
+      "template": "قيّم الجمل المثبتة والمنفية بالطريقة نفسها. إذا وجدت أداة نفي، فحدد نطاق تأثيرها قبل الحكم على صحة العبارة.\nهل العبارة التالية صحيحة (True) أم خاطئة (False)؟\n{statement_ar}",
+      "instruction_word_count": 18
+    },
+    {
+      "id": "P7_V2",
+      "name": "Short_General_Control",
+      "template": "اقرأ العبارة بعناية وحدد الفكرة التي تعبر عنها، ثم احكم على صحة معناها الكامل وفقاً للحقائق والمعلومات ذات الصلة.\nهل العبارة التالية صحيحة (True) أم خاطئة (False)؟\n{statement_ar}",
+      "instruction_word_count": 19
+    }
+  ],
+  "selection": {
+    "eligible": [
+      "P6",
+      "P6_V2",
+      "P6_V3",
+      "P6_V4"
+    ],
+    "primary": "maximize equal-model mean overall accuracy",
+    "tie_breakers": [
+      "maximize equal-model mean negated accuracy",
+      "maximize equal-model mean matched-pair accuracy",
+      "prefer original then V2 then V3 then V4"
+    ],
+    "control_mapping": {
+      "P6": "P7",
+      "P6_V2": "P7_V2",
+      "P6_V3": "P7_V2",
+      "P6_V4": "P7_V2"
+    },
+    "freeze": "recommendation only; team approval required before held-out testing; no requirement for positive gain"
+  }
+}

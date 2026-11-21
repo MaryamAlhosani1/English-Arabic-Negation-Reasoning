@@ -1,0 +1,60 @@
+{
+  "gpu": "NVIDIA L4",
+  "gpu_capability": [
+    8,
+    9
+  ],
+  "cuda": "13.0",
+  "torch_dtype": "bfloat16",
+  "quantization": 4,
+  "initial_batch_size": 32,
+  "seed": 42,
+  "model_revisions": {
+    "granite": "5ad66c190631382717bd92d7b052adb1a7b669e7",
+    "qwen": "e482ee3f73c375a627a16fdf66fd0c8279743ca6"
+  },
+  "packages": {
+    "torch": "2.14.1+cu130",
+    "transformers": "4.49.0",
+    "accelerate": "1.4.0",
+    "bitsandbytes": "0.49.0",
+    "datasets": "3.3.2",
+    "pandas": "2.2.3",
+    "numpy": "2.2.6",
+    "huggingface-hub": "0.29.3",
+    "PyYAML": "6.0.2",
+    "wandb": "0.19.8",
+    "peft": "0.14.0",
+    "sentencepiece": "0.2.1"
+  },
+  "python": "3.13.16",
+  "data_sha256": {
+    "Arabic_Data/Development.csv": "a667f2a9d5985c379dc313a29f75e3c209d33ab940bc4a1d8e6470efda47add1",
+    "Arabic_Data/Test.csv": "a15d4df7dd2bba71898e942f1d71ae0fc82952806445042f78933a3ab469bc7e",
+    "English_Data/english_test_1100.jsonl": "8c7b4bdaf16bb89f64ad55adae6c9bd467bc0f97a6252770456c88db8b311210"
+  },
+  "prompt_sha256": {
+    "Arabic_Code/Arabic_Prompts.json": "8f46e4f163bfff8bdecb397895480acc0e2742058ab28e9072bf34f2f2bee649",
+    "Arabic_Code/Development_V2_Protocol.json": "92a5cbbb22d29eb3cf59c805cd4a7d8337b5bdf450d4daf6baab1ff92e6ba222",
+    "Arabic_Code/Arabic_Prompts_Final.json": "983afc7928e43d255da871003b111f436df5e841761f7a083c8459759fb09884",
+    "Arabic_Code/Arabic_Test_Protocol.json": "f311c36f84c2ecb5d907d7e9c71af7f6dd60500ec79b270b20126a804cee7ffb",
+    "English_Code/prompts.py": "399e6f56914a6307d4089e5ed52cb755b8bb6edaf6ff4a4b6aeca336214037d8"
+  },
+  "code_sha256": {
+    "Arabic_Code/analysis.py": "2879487bdfa3d08e37d5e45d01b429a81cf9e85d7c7da792c532f91df03f711b",
+    "Arabic_Code/development.py": "b1f2ad9c8d6b68dad5722b1dafa5edb1052c6106d72abfd8353d39d67d9dc155",
+    "Arabic_Code/final_analysis.py": "2de61b6e738db7f34fdeab611ad6e24d7d4962120f96ef0fc32bd771d4f9a727",
+    "English_Code/config.py": "60c3b1b0a471e679d5ff57c966f49a69096b480f41fd23a7791c6aea57d7c335",
+    "English_Code/dataset.py": "164e01b5ad0c7e0710262ca82ad0f9403bd905ea2e88d41b5fa043f087b04e32",
+    "English_Code/evaluate.py": "7a03b5b165334fa2b9efeb441be4c818a5484d6bd0524363ff64fb78d221ba53",
+    "English_Code/fewshot.py": "373bd667653280424c79bb8be16e63654800ecc2283d1594afbafadf4bfe252a",
+    "English_Code/load_model.py": "68552f8862c301b06d27dd8b9bf0edb4d505987b0be73b19645e327e722e2b8f",
+    "English_Code/optimizer.py": "db9a43b827fc248656f9740603ee9e62fd93dcc8fca12c760a83b75ed0dfaccb",
+    "English_Code/prompts.py": "399e6f56914a6307d4089e5ed52cb755b8bb6edaf6ff4a4b6aeca336214037d8",
+    "English_Code/run.py": "0e20f47cdfd6cb22ede4c59d2923f43243e64618ab7b4da60c37b1f9a5f85f45",
+    "English_Code/run_all.py": "9dc336c20b7671cac83cad81f7335c579167f4fa278c0ea6eb3ee056ea04dcd0",
+    "check_environment.py": "d8f0ad4c917e3f7b24d38b0cd979b9bc168387d9e439e0f685cf7429dd06c15d",
+    "run_study.py": "6852b9375644c423963bd0d467fedae8d219928c4503a13090636ed74e169929"
+  },
+  "last_execution_utc": "2026-11-20T18:52:08.513995+00:00"
+}

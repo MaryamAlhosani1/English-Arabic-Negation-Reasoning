@@ -1,0 +1,7 @@
+﻿model,change,eligible_cases,selected_unique_items
+ibm-granite/granite-3.0-2b-instruct,corrected,126,13
+ibm-granite/granite-3.0-2b-instruct,introduced_error,127,13
+ibm-granite/granite-3.0-2b-instruct,both_wrong,210,0
+Qwen/Qwen1.5-1.8B-Chat,corrected,42,12
+Qwen/Qwen1.5-1.8B-Chat,introduced_error,31,12
+Qwen/Qwen1.5-1.8B-Chat,both_wrong,375,0

@@ -1,0 +1,47 @@
+{
+  "models": {
+    "granite": "ibm-granite/granite-3.0-2b-instruct",
+    "qwen": "Qwen/Qwen1.5-1.8B-Chat"
+  },
+  "model_revisions": {
+    "granite": "5ad66c190631382717bd92d7b052adb1a7b669e7",
+    "qwen": "e482ee3f73c375a627a16fdf66fd0c8279743ca6"
+  },
+  "seed": 42,
+  "gpu": "NVIDIA L4",
+  "gpu_capability": [
+    8,
+    9
+  ],
+  "cuda": "13.0",
+  "torch_dtype": "bfloat16",
+  "quantization": 4,
+  "initial_batch_size": 32,
+  "python": "3.13.16",
+  "packages": {
+    "torch": "2.14.1+cu130",
+    "transformers": "4.49.0",
+    "accelerate": "1.4.0",
+    "bitsandbytes": "0.49.0",
+    "datasets": "3.3.2",
+    "pandas": "2.2.3",
+    "numpy": "2.2.6",
+    "huggingface-hub": "0.29.3",
+    "PyYAML": "6.0.2",
+    "wandb": "0.19.8",
+    "peft": "0.14.0",
+    "sentencepiece": "0.2.1"
+  },
+  "data_sha256": {
+    "Arabic_Data/Development.csv": "a667f2a9d5985c379dc313a29f75e3c209d33ab940bc4a1d8e6470efda47add1",
+    "Arabic_Data/Test.csv": "a15d4df7dd2bba71898e942f1d71ae0fc82952806445042f78933a3ab469bc7e",
+    "English_Data/english_test_1100.jsonl": "8c7b4bdaf16bb89f64ad55adae6c9bd467bc0f97a6252770456c88db8b311210"
+  },
+  "prompt_sha256": {
+    "Arabic_Code/Arabic_Prompts.json": "8f46e4f163bfff8bdecb397895480acc0e2742058ab28e9072bf34f2f2bee649",
+    "Arabic_Code/Development_V2_Protocol.json": "92a5cbbb22d29eb3cf59c805cd4a7d8337b5bdf450d4daf6baab1ff92e6ba222",
+    "Arabic_Code/Arabic_Prompts_Final.json": "983afc7928e43d255da871003b111f436df5e841761f7a083c8459759fb09884",
+    "Arabic_Code/Arabic_Test_Protocol.json": "f311c36f84c2ecb5d907d7e9c71af7f6dd60500ec79b270b20126a804cee7ffb",
+    "English_Code/prompts.py": "399e6f56914a6307d4089e5ed52cb755b8bb6edaf6ff4a4b6aeca336214037d8"
+  }
+}

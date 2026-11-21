@@ -1,0 +1,70 @@
+{
+  "status": "Fixed before any held-out inference",
+  "partition": "test",
+  "n": 800,
+  "main_conditions": 14,
+  "robustness_new_conditions": 10,
+  "robustness_prompts": [
+    {
+      "id": "P6_R1",
+      "name": "Balanced_Paraphrase_1",
+      "template": "احكم على الجمل المثبتة والمنفية بالمعيار نفسه. عند وجود أداة نفي، عيّن الجزء الذي يشمله النفي قبل تقييم صحة العبارة.\nهل العبارة التالية صحيحة (True) أم خاطئة (False)؟\n{statement_ar}",
+      "reference": "P6",
+      "kind": "paraphrase"
+    },
+    {
+      "id": "P6_R2",
+      "name": "Balanced_Paraphrase_2",
+      "template": "استخدم طريقة واحدة لتقييم الجمل المثبتة والمنفية. إن ظهرت أداة نفي، فاعرف نطاقها أولاً ثم حدد ما إذا كانت العبارة صحيحة.\nهل العبارة التالية صحيحة (True) أم خاطئة (False)؟\n{statement_ar}",
+      "reference": "P6",
+      "kind": "paraphrase"
+    },
+    {
+      "id": "P6_R3",
+      "name": "Balanced_Paraphrase_3",
+      "template": "لا تختلف طريقة تقييمك للجملة باختلاف كونها مثبتة أو منفية. حدد نطاق أي أداة نفي فيها قبل أن تحكم على صحتها.\nهل العبارة التالية صحيحة (True) أم خاطئة (False)؟\n{statement_ar}",
+      "reference": "P6",
+      "kind": "paraphrase"
+    },
+    {
+      "id": "P2_REVERSED",
+      "name": "Warning_1_Reversed",
+      "template": "هل العبارة التالية صحيحة (True) أم خاطئة (False)؟\nانتبه إلى أي نفي وإلى المشتتات (الجمل التي لا معنى لها).\n{statement_ar}",
+      "reference": "P2",
+      "kind": "order"
+    },
+    {
+      "id": "P6_REVERSED",
+      "name": "Balanced_Evaluation_Reversed",
+      "template": "هل العبارة التالية صحيحة (True) أم خاطئة (False)؟\nقيّم الجمل المثبتة والمنفية بالطريقة نفسها. إذا وجدت أداة نفي، فحدد نطاق تأثيرها قبل الحكم على صحة العبارة.\n{statement_ar}",
+      "reference": "P6",
+      "kind": "order"
+    }
+  ],
+  "order_design": "Paper section 3.2 swaps WP1 and baseline; Arabic P2 repeats that design and P6 extends it. Statement stays last. Original orders are sourced from the verified main test archive, not rerun.",
+  "source": "https://aclanthology.org/2025.findings-emnlp.761.pdf",
+  "bootstrap": {
+    "replicates": 5000,
+    "seed": 42,
+    "unit": "group_id",
+    "interval": "percentile 95%, individual unadjusted intervals; primary comparisons P6 versus P1 and P7 per model",
+    "metrics": [
+      "overall",
+      "negated",
+      "matched_pair"
+    ]
+  },
+  "error_review": {
+    "target_unique_items": 50,
+    "seed": 42,
+    "strata": "P6 versus P1, model and corrected/introduced error, aim for 12 or 13 per stratum; fill shortages with remaining changed cases then persistent errors; no invented categories or human judgments",
+    "categories": [
+      "negation scope",
+      "factual knowledge",
+      "ambiguous wording",
+      "translation",
+      "answer-format problems",
+      "other / uncertain"
+    ]
+  }
+}

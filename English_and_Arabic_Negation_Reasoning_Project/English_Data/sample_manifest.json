@@ -1,0 +1,30 @@
+{
+  "upstream_commit": "5ed52e017e313bac8237dc9ce54c5fa900389c48",
+  "outer_archive_sha256": "391d01829d9aaa2e003aa4c20d7c7eba1f5c773d83e84e43b70aa982e0c15bc6",
+  "dataset_archive_sha256": "0b99b35b3a6ddbe03f09f40efb3ae4dc076a03e357368d2977ecb3d4da8f3598",
+  "test_member": "This-is-not-a-dataset/en/test.jsonl",
+  "test_member_sha256": "c1f5e92688309ac0606597e17f7178be07b945e4c3c500e1169dff637fe05028",
+  "original_test_count": 90281,
+  "sample_size": 1100,
+  "sampling": "100 per pattern, pandas sample random_state=42, original source order",
+  "pandas_version": "2.2.3",
+  "sample_sha256": "8c7b4bdaf16bb89f64ad55adae6c9bd467bc0f97a6252770456c88db8b311210",
+  "pattern_counts": {
+    "Synonymy1": 100,
+    "Antonymy1": 100,
+    "Synonymy2": 100,
+    "Antonymy2": 100,
+    "Hypernymy": 100,
+    "Part": 100,
+    "Substance": 100,
+    "Member": 100,
+    "Agent": 100,
+    "Instrument": 100,
+    "Result": 100
+  },
+  "label_counts": {
+    "False": 564,
+    "True": 536
+  },
+  "distractor_negation_n": 346
+}

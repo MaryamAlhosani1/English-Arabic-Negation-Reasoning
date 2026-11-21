@@ -1,0 +1,63 @@
+{
+  "selected_candidate": "P6_V4",
+  "selected_control": "P7_V2",
+  "selection_rule": {
+    "eligible": [
+      "P6",
+      "P6_V2",
+      "P6_V3",
+      "P6_V4"
+    ],
+    "primary": "maximize equal-model mean overall accuracy",
+    "tie_breakers": [
+      "maximize equal-model mean negated accuracy",
+      "maximize equal-model mean matched-pair accuracy",
+      "prefer original then V2 then V3 then V4"
+    ],
+    "control_mapping": {
+      "P6": "P7",
+      "P6_V2": "P7_V2",
+      "P6_V3": "P7_V2",
+      "P6_V4": "P7_V2"
+    },
+ 
+  },
+  "test_data_sha256": "a15d4df7dd2bba71898e942f1d71ae0fc82952806445042f78933a3ab469bc7e",
+  "prompts": [
+    {
+      "id": "P1",
+      "name": "Baseline",
+      "template": "هل العبارة التالية صحيحة (True) أم خاطئة (False)؟\n{statement_ar}"
+    },
+    {
+      "id": "P2",
+      "name": "Warning_1",
+      "template": "انتبه إلى أي نفي وإلى المشتتات (الجمل التي لا معنى لها).\nهل العبارة التالية صحيحة (True) أم خاطئة (False)؟\n{statement_ar}"
+    },
+    {
+      "id": "P3",
+      "name": "Warning_2",
+      "template": "انتبه إلى أي نفي (مثل «ليس»، و«لا»، و«لا ... أبداً»، وغيرها).\nهل العبارة التالية صحيحة (True) أم خاطئة (False)؟\n{statement_ar}"
+    },
+    {
+      "id": "P4",
+      "name": "Persona_1",
+      "template": "أنت خبير لغوي يفهم تأثير ألفاظ النفي.\nهل العبارة التالية صحيحة (True) أم خاطئة (False)؟\n{statement_ar}"
+    },
+    {
+      "id": "P5",
+      "name": "Persona_2",
+      "template": "أنت خبير في تحليل النفي في الجمل.\nهل العبارة التالية صحيحة (True) أم خاطئة (False)؟\n{statement_ar}"
+    },
+    {
+      "id": "P6",
+      "name": "Balanced_Evaluation",
+      "template": "قيّم الجمل المثبتة والمنفية بالطريقة نفسها. إذا وجدت أداة نفي، فحدد نطاق تأثيرها قبل الحكم على صحة العبارة.\nهل العبارة التالية صحيحة (True) أم خاطئة (False)؟\n{statement_ar}"
+    },
+    {
+      "id": "P7",
+      "name": "Short_General_Control",
+      "template": "اقرأ العبارة بعناية وحدد الفكرة التي تعبر عنها، ثم احكم على صحة معناها الكامل وفقاً للحقائق والمعلومات ذات الصلة.\nهل العبارة التالية صحيحة (True) أم خاطئة (False)؟\n{statement_ar}"
+    }
+  ]
+}

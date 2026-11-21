@@ -1,0 +1,397 @@
+﻿model,prompt_id,prompt_name,phase,metric,n,correct,accuracy_pct
+ibm-granite/granite-3.0-2b-instruct,P1,Baseline,V1_archived,overall,200,114,57.0
+ibm-granite/granite-3.0-2b-instruct,P1,Baseline,V1_archived,polarity:affirmative,100,66,66.0
+ibm-granite/granite-3.0-2b-instruct,P1,Baseline,V1_archived,polarity:negated,100,48,48.0
+ibm-granite/granite-3.0-2b-instruct,P1,Baseline,V1_archived,origin:arabic_authored_draft,100,54,54.0
+ibm-granite/granite-3.0-2b-instruct,P1,Baseline,V1_archived,origin:translated_from_english,100,60,60.0
+ibm-granite/granite-3.0-2b-instruct,P1,Baseline,V1_archived,construction:scope_quantifier,16,7,43.75
+ibm-granite/granite-3.0-2b-instruct,P1,Baseline,V1_archived,negated_construction:scope_quantifier,8,3,37.5
+ibm-granite/granite-3.0-2b-instruct,P1,Baseline,V1_archived,construction:لا,120,70,58.33333333
+ibm-granite/granite-3.0-2b-instruct,P1,Baseline,V1_archived,negated_construction:لا,60,29,48.33333333
+ibm-granite/granite-3.0-2b-instruct,P1,Baseline,V1_archived,construction:لا / scope & quantifiers,8,4,50.0
+ibm-granite/granite-3.0-2b-instruct,P1,Baseline,V1_archived,negated_construction:لا / scope & quantifiers,4,2,50.0
+ibm-granite/granite-3.0-2b-instruct,P1,Baseline,V1_archived,construction:لم,16,11,68.75
+ibm-granite/granite-3.0-2b-instruct,P1,Baseline,V1_archived,negated_construction:لم,8,4,50.0
+ibm-granite/granite-3.0-2b-instruct,P1,Baseline,V1_archived,construction:لن,12,6,50.0
+ibm-granite/granite-3.0-2b-instruct,P1,Baseline,V1_archived,negated_construction:لن,6,3,50.0
+ibm-granite/granite-3.0-2b-instruct,P1,Baseline,V1_archived,construction:ليس,28,16,57.14285714
+ibm-granite/granite-3.0-2b-instruct,P1,Baseline,V1_archived,negated_construction:ليس,14,7,50.0
+ibm-granite/granite-3.0-2b-instruct,P1,Baseline,V1_archived,matched_pair,100,24,24.0
+ibm-granite/granite-3.0-2b-instruct,P2,Warning_1,V1_archived,overall,200,111,55.5
+ibm-granite/granite-3.0-2b-instruct,P2,Warning_1,V1_archived,polarity:affirmative,100,61,61.0
+ibm-granite/granite-3.0-2b-instruct,P2,Warning_1,V1_archived,polarity:negated,100,50,50.0
+ibm-granite/granite-3.0-2b-instruct,P2,Warning_1,V1_archived,origin:arabic_authored_draft,100,55,55.0
+ibm-granite/granite-3.0-2b-instruct,P2,Warning_1,V1_archived,origin:translated_from_english,100,56,56.0
+ibm-granite/granite-3.0-2b-instruct,P2,Warning_1,V1_archived,construction:scope_quantifier,16,9,56.25
+ibm-granite/granite-3.0-2b-instruct,P2,Warning_1,V1_archived,negated_construction:scope_quantifier,8,5,62.5
+ibm-granite/granite-3.0-2b-instruct,P2,Warning_1,V1_archived,construction:لا,120,67,55.83333333
+ibm-granite/granite-3.0-2b-instruct,P2,Warning_1,V1_archived,negated_construction:لا,60,28,46.66666667
+ibm-granite/granite-3.0-2b-instruct,P2,Warning_1,V1_archived,construction:لا / scope & quantifiers,8,4,50.0
+ibm-granite/granite-3.0-2b-instruct,P2,Warning_1,V1_archived,negated_construction:لا / scope & quantifiers,4,2,50.0
+ibm-granite/granite-3.0-2b-instruct,P2,Warning_1,V1_archived,construction:لم,16,10,62.5
+ibm-granite/granite-3.0-2b-instruct,P2,Warning_1,V1_archived,negated_construction:لم,8,4,50.0
+ibm-granite/granite-3.0-2b-instruct,P2,Warning_1,V1_archived,construction:لن,12,6,50.0
+ibm-granite/granite-3.0-2b-instruct,P2,Warning_1,V1_archived,negated_construction:لن,6,3,50.0
+ibm-granite/granite-3.0-2b-instruct,P2,Warning_1,V1_archived,construction:ليس,28,15,53.57142857
+ibm-granite/granite-3.0-2b-instruct,P2,Warning_1,V1_archived,negated_construction:ليس,14,8,57.14285714
+ibm-granite/granite-3.0-2b-instruct,P2,Warning_1,V1_archived,matched_pair,100,16,16.0
+ibm-granite/granite-3.0-2b-instruct,P3,Warning_2,V1_archived,overall,200,110,55.0
+ibm-granite/granite-3.0-2b-instruct,P3,Warning_2,V1_archived,polarity:affirmative,100,60,60.0
+ibm-granite/granite-3.0-2b-instruct,P3,Warning_2,V1_archived,polarity:negated,100,50,50.0
+ibm-granite/granite-3.0-2b-instruct,P3,Warning_2,V1_archived,origin:arabic_authored_draft,100,54,54.0
+ibm-granite/granite-3.0-2b-instruct,P3,Warning_2,V1_archived,origin:translated_from_english,100,56,56.0
+ibm-granite/granite-3.0-2b-instruct,P3,Warning_2,V1_archived,construction:scope_quantifier,16,7,43.75
+ibm-granite/granite-3.0-2b-instruct,P3,Warning_2,V1_archived,negated_construction:scope_quantifier,8,3,37.5
+ibm-granite/granite-3.0-2b-instruct,P3,Warning_2,V1_archived,construction:لا,120,67,55.83333333
+ibm-granite/granite-3.0-2b-instruct,P3,Warning_2,V1_archived,negated_construction:لا,60,29,48.33333333
+ibm-granite/granite-3.0-2b-instruct,P3,Warning_2,V1_archived,construction:لا / scope & quantifiers,8,4,50.0
+ibm-granite/granite-3.0-2b-instruct,P3,Warning_2,V1_archived,negated_construction:لا / scope & quantifiers,4,2,50.0
+ibm-granite/granite-3.0-2b-instruct,P3,Warning_2,V1_archived,construction:لم,16,9,56.25
+ibm-granite/granite-3.0-2b-instruct,P3,Warning_2,V1_archived,negated_construction:لم,8,4,50.0
+ibm-granite/granite-3.0-2b-instruct,P3,Warning_2,V1_archived,construction:لن,12,6,50.0
+ibm-granite/granite-3.0-2b-instruct,P3,Warning_2,V1_archived,negated_construction:لن,6,3,50.0
+ibm-granite/granite-3.0-2b-instruct,P3,Warning_2,V1_archived,construction:ليس,28,17,60.71428571
+ibm-granite/granite-3.0-2b-instruct,P3,Warning_2,V1_archived,negated_construction:ليس,14,9,64.28571429
+ibm-granite/granite-3.0-2b-instruct,P3,Warning_2,V1_archived,matched_pair,100,17,17.0
+ibm-granite/granite-3.0-2b-instruct,P4,Persona_1,V1_archived,overall,200,113,56.5
+ibm-granite/granite-3.0-2b-instruct,P4,Persona_1,V1_archived,polarity:affirmative,100,63,63.0
+ibm-granite/granite-3.0-2b-instruct,P4,Persona_1,V1_archived,polarity:negated,100,50,50.0
+ibm-granite/granite-3.0-2b-instruct,P4,Persona_1,V1_archived,origin:arabic_authored_draft,100,55,55.0
+ibm-granite/granite-3.0-2b-instruct,P4,Persona_1,V1_archived,origin:translated_from_english,100,58,58.0
+ibm-granite/granite-3.0-2b-instruct,P4,Persona_1,V1_archived,construction:scope_quantifier,16,8,50.0
+ibm-granite/granite-3.0-2b-instruct,P4,Persona_1,V1_archived,negated_construction:scope_quantifier,8,3,37.5
+ibm-granite/granite-3.0-2b-instruct,P4,Persona_1,V1_archived,construction:لا,120,69,57.5
+ibm-granite/granite-3.0-2b-instruct,P4,Persona_1,V1_archived,negated_construction:لا,60,29,48.33333333
+ibm-granite/granite-3.0-2b-instruct,P4,Persona_1,V1_archived,construction:لا / scope & quantifiers,8,4,50.0
+ibm-granite/granite-3.0-2b-instruct,P4,Persona_1,V1_archived,negated_construction:لا / scope & quantifiers,4,2,50.0
+ibm-granite/granite-3.0-2b-instruct,P4,Persona_1,V1_archived,construction:لم,16,10,62.5
+ibm-granite/granite-3.0-2b-instruct,P4,Persona_1,V1_archived,negated_construction:لم,8,5,62.5
+ibm-granite/granite-3.0-2b-instruct,P4,Persona_1,V1_archived,construction:لن,12,6,50.0
+ibm-granite/granite-3.0-2b-instruct,P4,Persona_1,V1_archived,negated_construction:لن,6,3,50.0
+ibm-granite/granite-3.0-2b-instruct,P4,Persona_1,V1_archived,construction:ليس,28,16,57.14285714
+ibm-granite/granite-3.0-2b-instruct,P4,Persona_1,V1_archived,negated_construction:ليس,14,8,57.14285714
+ibm-granite/granite-3.0-2b-instruct,P4,Persona_1,V1_archived,matched_pair,100,30,30.0
+ibm-granite/granite-3.0-2b-instruct,P5,Persona_2,V1_archived,overall,200,105,52.5
+ibm-granite/granite-3.0-2b-instruct,P5,Persona_2,V1_archived,polarity:affirmative,100,55,55.0
+ibm-granite/granite-3.0-2b-instruct,P5,Persona_2,V1_archived,polarity:negated,100,50,50.0
+ibm-granite/granite-3.0-2b-instruct,P5,Persona_2,V1_archived,origin:arabic_authored_draft,100,54,54.0
+ibm-granite/granite-3.0-2b-instruct,P5,Persona_2,V1_archived,origin:translated_from_english,100,51,51.0
+ibm-granite/granite-3.0-2b-instruct,P5,Persona_2,V1_archived,construction:scope_quantifier,16,9,56.25
+ibm-granite/granite-3.0-2b-instruct,P5,Persona_2,V1_archived,negated_construction:scope_quantifier,8,5,62.5
+ibm-granite/granite-3.0-2b-instruct,P5,Persona_2,V1_archived,construction:لا,120,61,50.83333333
+ibm-granite/granite-3.0-2b-instruct,P5,Persona_2,V1_archived,negated_construction:لا,60,28,46.66666667
+ibm-granite/granite-3.0-2b-instruct,P5,Persona_2,V1_archived,construction:لا / scope & quantifiers,8,4,50.0
+ibm-granite/granite-3.0-2b-instruct,P5,Persona_2,V1_archived,negated_construction:لا / scope & quantifiers,4,2,50.0
+ibm-granite/granite-3.0-2b-instruct,P5,Persona_2,V1_archived,construction:لم,16,9,56.25
+ibm-granite/granite-3.0-2b-instruct,P5,Persona_2,V1_archived,negated_construction:لم,8,4,50.0
+ibm-granite/granite-3.0-2b-instruct,P5,Persona_2,V1_archived,construction:لن,12,7,58.33333333
+ibm-granite/granite-3.0-2b-instruct,P5,Persona_2,V1_archived,negated_construction:لن,6,3,50.0
+ibm-granite/granite-3.0-2b-instruct,P5,Persona_2,V1_archived,construction:ليس,28,15,53.57142857
+ibm-granite/granite-3.0-2b-instruct,P5,Persona_2,V1_archived,negated_construction:ليس,14,8,57.14285714
+ibm-granite/granite-3.0-2b-instruct,P5,Persona_2,V1_archived,matched_pair,100,14,14.0
+ibm-granite/granite-3.0-2b-instruct,P6,Arabic_Specific,V1_archived,overall,200,102,51.0
+ibm-granite/granite-3.0-2b-instruct,P6,Arabic_Specific,V1_archived,polarity:affirmative,100,50,50.0
+ibm-granite/granite-3.0-2b-instruct,P6,Arabic_Specific,V1_archived,polarity:negated,100,52,52.0
+ibm-granite/granite-3.0-2b-instruct,P6,Arabic_Specific,V1_archived,origin:arabic_authored_draft,100,55,55.0
+ibm-granite/granite-3.0-2b-instruct,P6,Arabic_Specific,V1_archived,origin:translated_from_english,100,47,47.0
+ibm-granite/granite-3.0-2b-instruct,P6,Arabic_Specific,V1_archived,construction:scope_quantifier,16,11,68.75
+ibm-granite/granite-3.0-2b-instruct,P6,Arabic_Specific,V1_archived,negated_construction:scope_quantifier,8,6,75.0
+ibm-granite/granite-3.0-2b-instruct,P6,Arabic_Specific,V1_archived,construction:لا,120,59,49.16666667
+ibm-granite/granite-3.0-2b-instruct,P6,Arabic_Specific,V1_archived,negated_construction:لا,60,30,50.0
+ibm-granite/granite-3.0-2b-instruct,P6,Arabic_Specific,V1_archived,construction:لا / scope & quantifiers,8,3,37.5
+ibm-granite/granite-3.0-2b-instruct,P6,Arabic_Specific,V1_archived,negated_construction:لا / scope & quantifiers,4,2,50.0
+ibm-granite/granite-3.0-2b-instruct,P6,Arabic_Specific,V1_archived,construction:لم,16,9,56.25
+ibm-granite/granite-3.0-2b-instruct,P6,Arabic_Specific,V1_archived,negated_construction:لم,8,4,50.0
+ibm-granite/granite-3.0-2b-instruct,P6,Arabic_Specific,V1_archived,construction:لن,12,7,58.33333333
+ibm-granite/granite-3.0-2b-instruct,P6,Arabic_Specific,V1_archived,negated_construction:لن,6,3,50.0
+ibm-granite/granite-3.0-2b-instruct,P6,Arabic_Specific,V1_archived,construction:ليس,28,13,46.42857143
+ibm-granite/granite-3.0-2b-instruct,P6,Arabic_Specific,V1_archived,negated_construction:ليس,14,7,50.0
+ibm-granite/granite-3.0-2b-instruct,P6,Arabic_Specific,V1_archived,matched_pair,100,19,19.0
+ibm-granite/granite-3.0-2b-instruct,P7,General_Control,V1_archived,overall,200,102,51.0
+ibm-granite/granite-3.0-2b-instruct,P7,General_Control,V1_archived,polarity:affirmative,100,53,53.0
+ibm-granite/granite-3.0-2b-instruct,P7,General_Control,V1_archived,polarity:negated,100,49,49.0
+ibm-granite/granite-3.0-2b-instruct,P7,General_Control,V1_archived,origin:arabic_authored_draft,100,50,50.0
+ibm-granite/granite-3.0-2b-instruct,P7,General_Control,V1_archived,origin:translated_from_english,100,52,52.0
+ibm-granite/granite-3.0-2b-instruct,P7,General_Control,V1_archived,construction:scope_quantifier,16,8,50.0
+ibm-granite/granite-3.0-2b-instruct,P7,General_Control,V1_archived,negated_construction:scope_quantifier,8,4,50.0
+ibm-granite/granite-3.0-2b-instruct,P7,General_Control,V1_archived,construction:لا,120,62,51.66666667
+ibm-granite/granite-3.0-2b-instruct,P7,General_Control,V1_archived,negated_construction:لا,60,30,50.0
+ibm-granite/granite-3.0-2b-instruct,P7,General_Control,V1_archived,construction:لا / scope & quantifiers,8,4,50.0
+ibm-granite/granite-3.0-2b-instruct,P7,General_Control,V1_archived,negated_construction:لا / scope & quantifiers,4,2,50.0
+ibm-granite/granite-3.0-2b-instruct,P7,General_Control,V1_archived,construction:لم,16,8,50.0
+ibm-granite/granite-3.0-2b-instruct,P7,General_Control,V1_archived,negated_construction:لم,8,4,50.0
+ibm-granite/granite-3.0-2b-instruct,P7,General_Control,V1_archived,construction:لن,12,5,41.66666667
+ibm-granite/granite-3.0-2b-instruct,P7,General_Control,V1_archived,negated_construction:لن,6,2,33.33333333
+ibm-granite/granite-3.0-2b-instruct,P7,General_Control,V1_archived,construction:ليس,28,15,53.57142857
+ibm-granite/granite-3.0-2b-instruct,P7,General_Control,V1_archived,negated_construction:ليس,14,7,50.0
+ibm-granite/granite-3.0-2b-instruct,P7,General_Control,V1_archived,matched_pair,100,3,3.0
+ibm-granite/granite-3.0-2b-instruct,P6_V2,Negation_Scope,V2_new,overall,200,103,51.5
+ibm-granite/granite-3.0-2b-instruct,P6_V2,Negation_Scope,V2_new,polarity:affirmative,100,52,52.0
+ibm-granite/granite-3.0-2b-instruct,P6_V2,Negation_Scope,V2_new,polarity:negated,100,51,51.0
+ibm-granite/granite-3.0-2b-instruct,P6_V2,Negation_Scope,V2_new,origin:arabic_authored_draft,100,54,54.0
+ibm-granite/granite-3.0-2b-instruct,P6_V2,Negation_Scope,V2_new,origin:translated_from_english,100,49,49.0
+ibm-granite/granite-3.0-2b-instruct,P6_V2,Negation_Scope,V2_new,construction:scope_quantifier,16,11,68.75
+ibm-granite/granite-3.0-2b-instruct,P6_V2,Negation_Scope,V2_new,negated_construction:scope_quantifier,8,6,75.0
+ibm-granite/granite-3.0-2b-instruct,P6_V2,Negation_Scope,V2_new,construction:لا,120,59,49.16666667
+ibm-granite/granite-3.0-2b-instruct,P6_V2,Negation_Scope,V2_new,negated_construction:لا,60,28,46.66666667
+ibm-granite/granite-3.0-2b-instruct,P6_V2,Negation_Scope,V2_new,construction:لا / scope & quantifiers,8,4,50.0
+ibm-granite/granite-3.0-2b-instruct,P6_V2,Negation_Scope,V2_new,negated_construction:لا / scope & quantifiers,4,2,50.0
+ibm-granite/granite-3.0-2b-instruct,P6_V2,Negation_Scope,V2_new,construction:لم,16,8,50.0
+ibm-granite/granite-3.0-2b-instruct,P6_V2,Negation_Scope,V2_new,negated_construction:لم,8,3,37.5
+ibm-granite/granite-3.0-2b-instruct,P6_V2,Negation_Scope,V2_new,construction:لن,12,6,50.0
+ibm-granite/granite-3.0-2b-instruct,P6_V2,Negation_Scope,V2_new,negated_construction:لن,6,3,50.0
+ibm-granite/granite-3.0-2b-instruct,P6_V2,Negation_Scope,V2_new,construction:ليس,28,15,53.57142857
+ibm-granite/granite-3.0-2b-instruct,P6_V2,Negation_Scope,V2_new,negated_construction:ليس,14,9,64.28571429
+ibm-granite/granite-3.0-2b-instruct,P6_V2,Negation_Scope,V2_new,matched_pair,100,19,19.0
+ibm-granite/granite-3.0-2b-instruct,P6_V3,Negation_and_Truth,V2_new,overall,200,104,52.0
+ibm-granite/granite-3.0-2b-instruct,P6_V3,Negation_and_Truth,V2_new,polarity:affirmative,100,55,55.0
+ibm-granite/granite-3.0-2b-instruct,P6_V3,Negation_and_Truth,V2_new,polarity:negated,100,49,49.0
+ibm-granite/granite-3.0-2b-instruct,P6_V3,Negation_and_Truth,V2_new,origin:arabic_authored_draft,100,53,53.0
+ibm-granite/granite-3.0-2b-instruct,P6_V3,Negation_and_Truth,V2_new,origin:translated_from_english,100,51,51.0
+ibm-granite/granite-3.0-2b-instruct,P6_V3,Negation_and_Truth,V2_new,construction:scope_quantifier,16,10,62.5
+ibm-granite/granite-3.0-2b-instruct,P6_V3,Negation_and_Truth,V2_new,negated_construction:scope_quantifier,8,5,62.5
+ibm-granite/granite-3.0-2b-instruct,P6_V3,Negation_and_Truth,V2_new,construction:لا,120,61,50.83333333
+ibm-granite/granite-3.0-2b-instruct,P6_V3,Negation_and_Truth,V2_new,negated_construction:لا,60,29,48.33333333
+ibm-granite/granite-3.0-2b-instruct,P6_V3,Negation_and_Truth,V2_new,construction:لا / scope & quantifiers,8,4,50.0
+ibm-granite/granite-3.0-2b-instruct,P6_V3,Negation_and_Truth,V2_new,negated_construction:لا / scope & quantifiers,4,2,50.0
+ibm-granite/granite-3.0-2b-instruct,P6_V3,Negation_and_Truth,V2_new,construction:لم,16,11,68.75
+ibm-granite/granite-3.0-2b-instruct,P6_V3,Negation_and_Truth,V2_new,negated_construction:لم,8,4,50.0
+ibm-granite/granite-3.0-2b-instruct,P6_V3,Negation_and_Truth,V2_new,construction:لن,12,6,50.0
+ibm-granite/granite-3.0-2b-instruct,P6_V3,Negation_and_Truth,V2_new,negated_construction:لن,6,3,50.0
+ibm-granite/granite-3.0-2b-instruct,P6_V3,Negation_and_Truth,V2_new,construction:ليس,28,12,42.85714286
+ibm-granite/granite-3.0-2b-instruct,P6_V3,Negation_and_Truth,V2_new,negated_construction:ليس,14,6,42.85714286
+ibm-granite/granite-3.0-2b-instruct,P6_V3,Negation_and_Truth,V2_new,matched_pair,100,13,13.0
+ibm-granite/granite-3.0-2b-instruct,P6_V4,Balanced_Evaluation,V2_new,overall,200,112,56.0
+ibm-granite/granite-3.0-2b-instruct,P6_V4,Balanced_Evaluation,V2_new,polarity:affirmative,100,58,58.0
+ibm-granite/granite-3.0-2b-instruct,P6_V4,Balanced_Evaluation,V2_new,polarity:negated,100,54,54.0
+ibm-granite/granite-3.0-2b-instruct,P6_V4,Balanced_Evaluation,V2_new,origin:arabic_authored_draft,100,55,55.0
+ibm-granite/granite-3.0-2b-instruct,P6_V4,Balanced_Evaluation,V2_new,origin:translated_from_english,100,57,57.0
+ibm-granite/granite-3.0-2b-instruct,P6_V4,Balanced_Evaluation,V2_new,construction:scope_quantifier,16,9,56.25
+ibm-granite/granite-3.0-2b-instruct,P6_V4,Balanced_Evaluation,V2_new,negated_construction:scope_quantifier,8,4,50.0
+ibm-granite/granite-3.0-2b-instruct,P6_V4,Balanced_Evaluation,V2_new,construction:لا,120,69,57.5
+ibm-granite/granite-3.0-2b-instruct,P6_V4,Balanced_Evaluation,V2_new,negated_construction:لا,60,32,53.33333333
+ibm-granite/granite-3.0-2b-instruct,P6_V4,Balanced_Evaluation,V2_new,construction:لا / scope & quantifiers,8,4,50.0
+ibm-granite/granite-3.0-2b-instruct,P6_V4,Balanced_Evaluation,V2_new,negated_construction:لا / scope & quantifiers,4,2,50.0
+ibm-granite/granite-3.0-2b-instruct,P6_V4,Balanced_Evaluation,V2_new,construction:لم,16,11,68.75
+ibm-granite/granite-3.0-2b-instruct,P6_V4,Balanced_Evaluation,V2_new,negated_construction:لم,8,5,62.5
+ibm-granite/granite-3.0-2b-instruct,P6_V4,Balanced_Evaluation,V2_new,construction:لن,12,8,66.66666667
+ibm-granite/granite-3.0-2b-instruct,P6_V4,Balanced_Evaluation,V2_new,negated_construction:لن,6,4,66.66666667
+ibm-granite/granite-3.0-2b-instruct,P6_V4,Balanced_Evaluation,V2_new,construction:ليس,28,11,39.28571429
+ibm-granite/granite-3.0-2b-instruct,P6_V4,Balanced_Evaluation,V2_new,negated_construction:ليس,14,7,50.0
+ibm-granite/granite-3.0-2b-instruct,P6_V4,Balanced_Evaluation,V2_new,matched_pair,100,30,30.0
+ibm-granite/granite-3.0-2b-instruct,P7_V2,Short_General_Control,V2_new,overall,200,109,54.5
+ibm-granite/granite-3.0-2b-instruct,P7_V2,Short_General_Control,V2_new,polarity:affirmative,100,58,58.0
+ibm-granite/granite-3.0-2b-instruct,P7_V2,Short_General_Control,V2_new,polarity:negated,100,51,51.0
+ibm-granite/granite-3.0-2b-instruct,P7_V2,Short_General_Control,V2_new,origin:arabic_authored_draft,100,54,54.0
+ibm-granite/granite-3.0-2b-instruct,P7_V2,Short_General_Control,V2_new,origin:translated_from_english,100,55,55.0
+ibm-granite/granite-3.0-2b-instruct,P7_V2,Short_General_Control,V2_new,construction:scope_quantifier,16,11,68.75
+ibm-granite/granite-3.0-2b-instruct,P7_V2,Short_General_Control,V2_new,negated_construction:scope_quantifier,8,5,62.5
+ibm-granite/granite-3.0-2b-instruct,P7_V2,Short_General_Control,V2_new,construction:لا,120,65,54.16666667
+ibm-granite/granite-3.0-2b-instruct,P7_V2,Short_General_Control,V2_new,negated_construction:لا,60,30,50.0
+ibm-granite/granite-3.0-2b-instruct,P7_V2,Short_General_Control,V2_new,construction:لا / scope & quantifiers,8,4,50.0
+ibm-granite/granite-3.0-2b-instruct,P7_V2,Short_General_Control,V2_new,negated_construction:لا / scope & quantifiers,4,2,50.0
+ibm-granite/granite-3.0-2b-instruct,P7_V2,Short_General_Control,V2_new,construction:لم,16,9,56.25
+ibm-granite/granite-3.0-2b-instruct,P7_V2,Short_General_Control,V2_new,negated_construction:لم,8,4,50.0
+ibm-granite/granite-3.0-2b-instruct,P7_V2,Short_General_Control,V2_new,construction:لن,12,6,50.0
+ibm-granite/granite-3.0-2b-instruct,P7_V2,Short_General_Control,V2_new,negated_construction:لن,6,3,50.0
+ibm-granite/granite-3.0-2b-instruct,P7_V2,Short_General_Control,V2_new,construction:ليس,28,14,50.0
+ibm-granite/granite-3.0-2b-instruct,P7_V2,Short_General_Control,V2_new,negated_construction:ليس,14,7,50.0
+ibm-granite/granite-3.0-2b-instruct,P7_V2,Short_General_Control,V2_new,matched_pair,100,18,18.0
+Qwen/Qwen1.5-1.8B-Chat,P1,Baseline,V1_archived,overall,200,98,49.0
+Qwen/Qwen1.5-1.8B-Chat,P1,Baseline,V1_archived,polarity:affirmative,100,49,49.0
+Qwen/Qwen1.5-1.8B-Chat,P1,Baseline,V1_archived,polarity:negated,100,49,49.0
+Qwen/Qwen1.5-1.8B-Chat,P1,Baseline,V1_archived,origin:arabic_authored_draft,100,50,50.0
+Qwen/Qwen1.5-1.8B-Chat,P1,Baseline,V1_archived,origin:translated_from_english,100,48,48.0
+Qwen/Qwen1.5-1.8B-Chat,P1,Baseline,V1_archived,construction:scope_quantifier,16,9,56.25
+Qwen/Qwen1.5-1.8B-Chat,P1,Baseline,V1_archived,negated_construction:scope_quantifier,8,5,62.5
+Qwen/Qwen1.5-1.8B-Chat,P1,Baseline,V1_archived,construction:لا,120,58,48.33333333
+Qwen/Qwen1.5-1.8B-Chat,P1,Baseline,V1_archived,negated_construction:لا,60,29,48.33333333
+Qwen/Qwen1.5-1.8B-Chat,P1,Baseline,V1_archived,construction:لا / scope & quantifiers,8,4,50.0
+Qwen/Qwen1.5-1.8B-Chat,P1,Baseline,V1_archived,negated_construction:لا / scope & quantifiers,4,2,50.0
+Qwen/Qwen1.5-1.8B-Chat,P1,Baseline,V1_archived,construction:لم,16,9,56.25
+Qwen/Qwen1.5-1.8B-Chat,P1,Baseline,V1_archived,negated_construction:لم,8,5,62.5
+Qwen/Qwen1.5-1.8B-Chat,P1,Baseline,V1_archived,construction:لن,12,6,50.0
+Qwen/Qwen1.5-1.8B-Chat,P1,Baseline,V1_archived,negated_construction:لن,6,3,50.0
+Qwen/Qwen1.5-1.8B-Chat,P1,Baseline,V1_archived,construction:ليس,28,12,42.85714286
+Qwen/Qwen1.5-1.8B-Chat,P1,Baseline,V1_archived,negated_construction:ليس,14,5,35.71428571
+Qwen/Qwen1.5-1.8B-Chat,P1,Baseline,V1_archived,matched_pair,100,19,19.0
+Qwen/Qwen1.5-1.8B-Chat,P2,Warning_1,V1_archived,overall,200,103,51.5
+Qwen/Qwen1.5-1.8B-Chat,P2,Warning_1,V1_archived,polarity:affirmative,100,51,51.0
+Qwen/Qwen1.5-1.8B-Chat,P2,Warning_1,V1_archived,polarity:negated,100,52,52.0
+Qwen/Qwen1.5-1.8B-Chat,P2,Warning_1,V1_archived,origin:arabic_authored_draft,100,53,53.0
+Qwen/Qwen1.5-1.8B-Chat,P2,Warning_1,V1_archived,origin:translated_from_english,100,50,50.0
+Qwen/Qwen1.5-1.8B-Chat,P2,Warning_1,V1_archived,construction:scope_quantifier,16,10,62.5
+Qwen/Qwen1.5-1.8B-Chat,P2,Warning_1,V1_archived,negated_construction:scope_quantifier,8,6,75.0
+Qwen/Qwen1.5-1.8B-Chat,P2,Warning_1,V1_archived,construction:لا,120,62,51.66666667
+Qwen/Qwen1.5-1.8B-Chat,P2,Warning_1,V1_archived,negated_construction:لا,60,32,53.33333333
+Qwen/Qwen1.5-1.8B-Chat,P2,Warning_1,V1_archived,construction:لا / scope & quantifiers,8,4,50.0
+Qwen/Qwen1.5-1.8B-Chat,P2,Warning_1,V1_archived,negated_construction:لا / scope & quantifiers,4,2,50.0
+Qwen/Qwen1.5-1.8B-Chat,P2,Warning_1,V1_archived,construction:لم,16,9,56.25
+Qwen/Qwen1.5-1.8B-Chat,P2,Warning_1,V1_archived,negated_construction:لم,8,4,50.0
+Qwen/Qwen1.5-1.8B-Chat,P2,Warning_1,V1_archived,construction:لن,12,6,50.0
+Qwen/Qwen1.5-1.8B-Chat,P2,Warning_1,V1_archived,negated_construction:لن,6,3,50.0
+Qwen/Qwen1.5-1.8B-Chat,P2,Warning_1,V1_archived,construction:ليس,28,12,42.85714286
+Qwen/Qwen1.5-1.8B-Chat,P2,Warning_1,V1_archived,negated_construction:ليس,14,5,35.71428571
+Qwen/Qwen1.5-1.8B-Chat,P2,Warning_1,V1_archived,matched_pair,100,36,36.0
+Qwen/Qwen1.5-1.8B-Chat,P3,Warning_2,V1_archived,overall,200,94,47.0
+Qwen/Qwen1.5-1.8B-Chat,P3,Warning_2,V1_archived,polarity:affirmative,100,48,48.0
+Qwen/Qwen1.5-1.8B-Chat,P3,Warning_2,V1_archived,polarity:negated,100,46,46.0
+Qwen/Qwen1.5-1.8B-Chat,P3,Warning_2,V1_archived,origin:arabic_authored_draft,100,46,46.0
+Qwen/Qwen1.5-1.8B-Chat,P3,Warning_2,V1_archived,origin:translated_from_english,100,48,48.0
+Qwen/Qwen1.5-1.8B-Chat,P3,Warning_2,V1_archived,construction:scope_quantifier,16,9,56.25
+Qwen/Qwen1.5-1.8B-Chat,P3,Warning_2,V1_archived,negated_construction:scope_quantifier,8,4,50.0
+Qwen/Qwen1.5-1.8B-Chat,P3,Warning_2,V1_archived,construction:لا,120,59,49.16666667
+Qwen/Qwen1.5-1.8B-Chat,P3,Warning_2,V1_archived,negated_construction:لا,60,31,51.66666667
+Qwen/Qwen1.5-1.8B-Chat,P3,Warning_2,V1_archived,construction:لا / scope & quantifiers,8,3,37.5
+Qwen/Qwen1.5-1.8B-Chat,P3,Warning_2,V1_archived,negated_construction:لا / scope & quantifiers,4,1,25.0
+Qwen/Qwen1.5-1.8B-Chat,P3,Warning_2,V1_archived,construction:لم,16,6,37.5
+Qwen/Qwen1.5-1.8B-Chat,P3,Warning_2,V1_archived,negated_construction:لم,8,2,25.0
+Qwen/Qwen1.5-1.8B-Chat,P3,Warning_2,V1_archived,construction:لن,12,6,50.0
+Qwen/Qwen1.5-1.8B-Chat,P3,Warning_2,V1_archived,negated_construction:لن,6,3,50.0
+Qwen/Qwen1.5-1.8B-Chat,P3,Warning_2,V1_archived,construction:ليس,28,11,39.28571429
+Qwen/Qwen1.5-1.8B-Chat,P3,Warning_2,V1_archived,negated_construction:ليس,14,5,35.71428571
+Qwen/Qwen1.5-1.8B-Chat,P3,Warning_2,V1_archived,matched_pair,100,26,26.0
+Qwen/Qwen1.5-1.8B-Chat,P4,Persona_1,V1_archived,overall,200,101,50.5
+Qwen/Qwen1.5-1.8B-Chat,P4,Persona_1,V1_archived,polarity:affirmative,100,50,50.0
+Qwen/Qwen1.5-1.8B-Chat,P4,Persona_1,V1_archived,polarity:negated,100,51,51.0
+Qwen/Qwen1.5-1.8B-Chat,P4,Persona_1,V1_archived,origin:arabic_authored_draft,100,53,53.0
+Qwen/Qwen1.5-1.8B-Chat,P4,Persona_1,V1_archived,origin:translated_from_english,100,48,48.0
+Qwen/Qwen1.5-1.8B-Chat,P4,Persona_1,V1_archived,construction:scope_quantifier,16,9,56.25
+Qwen/Qwen1.5-1.8B-Chat,P4,Persona_1,V1_archived,negated_construction:scope_quantifier,8,5,62.5
+Qwen/Qwen1.5-1.8B-Chat,P4,Persona_1,V1_archived,construction:لا,120,60,50.0
+Qwen/Qwen1.5-1.8B-Chat,P4,Persona_1,V1_archived,negated_construction:لا,60,30,50.0
+Qwen/Qwen1.5-1.8B-Chat,P4,Persona_1,V1_archived,construction:لا / scope & quantifiers,8,4,50.0
+Qwen/Qwen1.5-1.8B-Chat,P4,Persona_1,V1_archived,negated_construction:لا / scope & quantifiers,4,2,50.0
+Qwen/Qwen1.5-1.8B-Chat,P4,Persona_1,V1_archived,construction:لم,16,7,43.75
+Qwen/Qwen1.5-1.8B-Chat,P4,Persona_1,V1_archived,negated_construction:لم,8,3,37.5
+Qwen/Qwen1.5-1.8B-Chat,P4,Persona_1,V1_archived,construction:لن,12,6,50.0
+Qwen/Qwen1.5-1.8B-Chat,P4,Persona_1,V1_archived,negated_construction:لن,6,3,50.0
+Qwen/Qwen1.5-1.8B-Chat,P4,Persona_1,V1_archived,construction:ليس,28,15,53.57142857
+Qwen/Qwen1.5-1.8B-Chat,P4,Persona_1,V1_archived,negated_construction:ليس,14,8,57.14285714
+Qwen/Qwen1.5-1.8B-Chat,P4,Persona_1,V1_archived,matched_pair,100,32,32.0
+Qwen/Qwen1.5-1.8B-Chat,P5,Persona_2,V1_archived,overall,200,97,48.5
+Qwen/Qwen1.5-1.8B-Chat,P5,Persona_2,V1_archived,polarity:affirmative,100,49,49.0
+Qwen/Qwen1.5-1.8B-Chat,P5,Persona_2,V1_archived,polarity:negated,100,48,48.0
+Qwen/Qwen1.5-1.8B-Chat,P5,Persona_2,V1_archived,origin:arabic_authored_draft,100,49,49.0
+Qwen/Qwen1.5-1.8B-Chat,P5,Persona_2,V1_archived,origin:translated_from_english,100,48,48.0
+Qwen/Qwen1.5-1.8B-Chat,P5,Persona_2,V1_archived,construction:scope_quantifier,16,8,50.0
+Qwen/Qwen1.5-1.8B-Chat,P5,Persona_2,V1_archived,negated_construction:scope_quantifier,8,4,50.0
+Qwen/Qwen1.5-1.8B-Chat,P5,Persona_2,V1_archived,construction:لا,120,57,47.5
+Qwen/Qwen1.5-1.8B-Chat,P5,Persona_2,V1_archived,negated_construction:لا,60,28,46.66666667
+Qwen/Qwen1.5-1.8B-Chat,P5,Persona_2,V1_archived,construction:لا / scope & quantifiers,8,4,50.0
+Qwen/Qwen1.5-1.8B-Chat,P5,Persona_2,V1_archived,negated_construction:لا / scope & quantifiers,4,2,50.0
+Qwen/Qwen1.5-1.8B-Chat,P5,Persona_2,V1_archived,construction:لم,16,8,50.0
+Qwen/Qwen1.5-1.8B-Chat,P5,Persona_2,V1_archived,negated_construction:لم,8,4,50.0
+Qwen/Qwen1.5-1.8B-Chat,P5,Persona_2,V1_archived,construction:لن,12,6,50.0
+Qwen/Qwen1.5-1.8B-Chat,P5,Persona_2,V1_archived,negated_construction:لن,6,3,50.0
+Qwen/Qwen1.5-1.8B-Chat,P5,Persona_2,V1_archived,construction:ليس,28,14,50.0
+Qwen/Qwen1.5-1.8B-Chat,P5,Persona_2,V1_archived,negated_construction:ليس,14,7,50.0
+Qwen/Qwen1.5-1.8B-Chat,P5,Persona_2,V1_archived,matched_pair,100,14,14.0
+Qwen/Qwen1.5-1.8B-Chat,P6,Arabic_Specific,V1_archived,overall,200,96,48.0
+Qwen/Qwen1.5-1.8B-Chat,P6,Arabic_Specific,V1_archived,polarity:affirmative,100,49,49.0
+Qwen/Qwen1.5-1.8B-Chat,P6,Arabic_Specific,V1_archived,polarity:negated,100,47,47.0
+Qwen/Qwen1.5-1.8B-Chat,P6,Arabic_Specific,V1_archived,origin:arabic_authored_draft,100,46,46.0
+Qwen/Qwen1.5-1.8B-Chat,P6,Arabic_Specific,V1_archived,origin:translated_from_english,100,50,50.0
+Qwen/Qwen1.5-1.8B-Chat,P6,Arabic_Specific,V1_archived,construction:scope_quantifier,16,8,50.0
+Qwen/Qwen1.5-1.8B-Chat,P6,Arabic_Specific,V1_archived,negated_construction:scope_quantifier,8,4,50.0
+Qwen/Qwen1.5-1.8B-Chat,P6,Arabic_Specific,V1_archived,construction:لا,120,59,49.16666667
+Qwen/Qwen1.5-1.8B-Chat,P6,Arabic_Specific,V1_archived,negated_construction:لا,60,29,48.33333333
+Qwen/Qwen1.5-1.8B-Chat,P6,Arabic_Specific,V1_archived,construction:لا / scope & quantifiers,8,3,37.5
+Qwen/Qwen1.5-1.8B-Chat,P6,Arabic_Specific,V1_archived,negated_construction:لا / scope & quantifiers,4,1,25.0
+Qwen/Qwen1.5-1.8B-Chat,P6,Arabic_Specific,V1_archived,construction:لم,16,6,37.5
+Qwen/Qwen1.5-1.8B-Chat,P6,Arabic_Specific,V1_archived,negated_construction:لم,8,3,37.5
+Qwen/Qwen1.5-1.8B-Chat,P6,Arabic_Specific,V1_archived,construction:لن,12,6,50.0
+Qwen/Qwen1.5-1.8B-Chat,P6,Arabic_Specific,V1_archived,negated_construction:لن,6,3,50.0
+Qwen/Qwen1.5-1.8B-Chat,P6,Arabic_Specific,V1_archived,construction:ليس,28,14,50.0
+Qwen/Qwen1.5-1.8B-Chat,P6,Arabic_Specific,V1_archived,negated_construction:ليس,14,7,50.0
+Qwen/Qwen1.5-1.8B-Chat,P6,Arabic_Specific,V1_archived,matched_pair,100,24,24.0
+Qwen/Qwen1.5-1.8B-Chat,P7,General_Control,V1_archived,overall,200,101,50.5
+Qwen/Qwen1.5-1.8B-Chat,P7,General_Control,V1_archived,polarity:affirmative,100,49,49.0
+Qwen/Qwen1.5-1.8B-Chat,P7,General_Control,V1_archived,polarity:negated,100,52,52.0
+Qwen/Qwen1.5-1.8B-Chat,P7,General_Control,V1_archived,origin:arabic_authored_draft,100,50,50.0
+Qwen/Qwen1.5-1.8B-Chat,P7,General_Control,V1_archived,origin:translated_from_english,100,51,51.0
+Qwen/Qwen1.5-1.8B-Chat,P7,General_Control,V1_archived,construction:scope_quantifier,16,8,50.0
+Qwen/Qwen1.5-1.8B-Chat,P7,General_Control,V1_archived,negated_construction:scope_quantifier,8,4,50.0
+Qwen/Qwen1.5-1.8B-Chat,P7,General_Control,V1_archived,construction:لا,120,62,51.66666667
+Qwen/Qwen1.5-1.8B-Chat,P7,General_Control,V1_archived,negated_construction:لا,60,33,55.0
+Qwen/Qwen1.5-1.8B-Chat,P7,General_Control,V1_archived,construction:لا / scope & quantifiers,8,4,50.0
+Qwen/Qwen1.5-1.8B-Chat,P7,General_Control,V1_archived,negated_construction:لا / scope & quantifiers,4,2,50.0
+Qwen/Qwen1.5-1.8B-Chat,P7,General_Control,V1_archived,construction:لم,16,8,50.0
+Qwen/Qwen1.5-1.8B-Chat,P7,General_Control,V1_archived,negated_construction:لم,8,4,50.0
+Qwen/Qwen1.5-1.8B-Chat,P7,General_Control,V1_archived,construction:لن,12,6,50.0
+Qwen/Qwen1.5-1.8B-Chat,P7,General_Control,V1_archived,negated_construction:لن,6,3,50.0
+Qwen/Qwen1.5-1.8B-Chat,P7,General_Control,V1_archived,construction:ليس,28,13,46.42857143
+Qwen/Qwen1.5-1.8B-Chat,P7,General_Control,V1_archived,negated_construction:ليس,14,6,42.85714286
+Qwen/Qwen1.5-1.8B-Chat,P7,General_Control,V1_archived,matched_pair,100,31,31.0
+Qwen/Qwen1.5-1.8B-Chat,P6_V2,Negation_Scope,V2_new,overall,200,97,48.5
+Qwen/Qwen1.5-1.8B-Chat,P6_V2,Negation_Scope,V2_new,polarity:affirmative,100,49,49.0
+Qwen/Qwen1.5-1.8B-Chat,P6_V2,Negation_Scope,V2_new,polarity:negated,100,48,48.0
+Qwen/Qwen1.5-1.8B-Chat,P6_V2,Negation_Scope,V2_new,origin:arabic_authored_draft,100,49,49.0
+Qwen/Qwen1.5-1.8B-Chat,P6_V2,Negation_Scope,V2_new,origin:translated_from_english,100,48,48.0
+Qwen/Qwen1.5-1.8B-Chat,P6_V2,Negation_Scope,V2_new,construction:scope_quantifier,16,9,56.25
+Qwen/Qwen1.5-1.8B-Chat,P6_V2,Negation_Scope,V2_new,negated_construction:scope_quantifier,8,5,62.5
+Qwen/Qwen1.5-1.8B-Chat,P6_V2,Negation_Scope,V2_new,construction:لا,120,57,47.5
+Qwen/Qwen1.5-1.8B-Chat,P6_V2,Negation_Scope,V2_new,negated_construction:لا,60,28,46.66666667
+Qwen/Qwen1.5-1.8B-Chat,P6_V2,Negation_Scope,V2_new,construction:لا / scope & quantifiers,8,4,50.0
+Qwen/Qwen1.5-1.8B-Chat,P6_V2,Negation_Scope,V2_new,negated_construction:لا / scope & quantifiers,4,2,50.0
+Qwen/Qwen1.5-1.8B-Chat,P6_V2,Negation_Scope,V2_new,construction:لم,16,8,50.0
+Qwen/Qwen1.5-1.8B-Chat,P6_V2,Negation_Scope,V2_new,negated_construction:لم,8,4,50.0
+Qwen/Qwen1.5-1.8B-Chat,P6_V2,Negation_Scope,V2_new,construction:لن,12,6,50.0
+Qwen/Qwen1.5-1.8B-Chat,P6_V2,Negation_Scope,V2_new,negated_construction:لن,6,3,50.0
+Qwen/Qwen1.5-1.8B-Chat,P6_V2,Negation_Scope,V2_new,construction:ليس,28,13,46.42857143
+Qwen/Qwen1.5-1.8B-Chat,P6_V2,Negation_Scope,V2_new,negated_construction:ليس,14,6,42.85714286
+Qwen/Qwen1.5-1.8B-Chat,P6_V2,Negation_Scope,V2_new,matched_pair,100,16,16.0
+Qwen/Qwen1.5-1.8B-Chat,P6_V3,Negation_and_Truth,V2_new,overall,200,95,47.5
+Qwen/Qwen1.5-1.8B-Chat,P6_V3,Negation_and_Truth,V2_new,polarity:affirmative,100,49,49.0
+Qwen/Qwen1.5-1.8B-Chat,P6_V3,Negation_and_Truth,V2_new,polarity:negated,100,46,46.0
+Qwen/Qwen1.5-1.8B-Chat,P6_V3,Negation_and_Truth,V2_new,origin:arabic_authored_draft,100,46,46.0
+Qwen/Qwen1.5-1.8B-Chat,P6_V3,Negation_and_Truth,V2_new,origin:translated_from_english,100,49,49.0
+Qwen/Qwen1.5-1.8B-Chat,P6_V3,Negation_and_Truth,V2_new,construction:scope_quantifier,16,9,56.25
+Qwen/Qwen1.5-1.8B-Chat,P6_V3,Negation_and_Truth,V2_new,negated_construction:scope_quantifier,8,5,62.5
+Qwen/Qwen1.5-1.8B-Chat,P6_V3,Negation_and_Truth,V2_new,construction:لا,120,57,47.5
+Qwen/Qwen1.5-1.8B-Chat,P6_V3,Negation_and_Truth,V2_new,negated_construction:لا,60,28,46.66666667
+Qwen/Qwen1.5-1.8B-Chat,P6_V3,Negation_and_Truth,V2_new,construction:لا / scope & quantifiers,8,5,62.5
+Qwen/Qwen1.5-1.8B-Chat,P6_V3,Negation_and_Truth,V2_new,negated_construction:لا / scope & quantifiers,4,3,75.0
+Qwen/Qwen1.5-1.8B-Chat,P6_V3,Negation_and_Truth,V2_new,construction:لم,16,8,50.0
+Qwen/Qwen1.5-1.8B-Chat,P6_V3,Negation_and_Truth,V2_new,negated_construction:لم,8,4,50.0
+Qwen/Qwen1.5-1.8B-Chat,P6_V3,Negation_and_Truth,V2_new,construction:لن,12,6,50.0
+Qwen/Qwen1.5-1.8B-Chat,P6_V3,Negation_and_Truth,V2_new,negated_construction:لن,6,3,50.0
+Qwen/Qwen1.5-1.8B-Chat,P6_V3,Negation_and_Truth,V2_new,construction:ليس,28,10,35.71428571
+Qwen/Qwen1.5-1.8B-Chat,P6_V3,Negation_and_Truth,V2_new,negated_construction:ليس,14,3,21.42857143
+Qwen/Qwen1.5-1.8B-Chat,P6_V3,Negation_and_Truth,V2_new,matched_pair,100,24,24.0
+Qwen/Qwen1.5-1.8B-Chat,P6_V4,Balanced_Evaluation,V2_new,overall,200,100,50.0
+Qwen/Qwen1.5-1.8B-Chat,P6_V4,Balanced_Evaluation,V2_new,polarity:affirmative,100,50,50.0
+Qwen/Qwen1.5-1.8B-Chat,P6_V4,Balanced_Evaluation,V2_new,polarity:negated,100,50,50.0
+Qwen/Qwen1.5-1.8B-Chat,P6_V4,Balanced_Evaluation,V2_new,origin:arabic_authored_draft,100,50,50.0
+Qwen/Qwen1.5-1.8B-Chat,P6_V4,Balanced_Evaluation,V2_new,origin:translated_from_english,100,50,50.0
+Qwen/Qwen1.5-1.8B-Chat,P6_V4,Balanced_Evaluation,V2_new,construction:scope_quantifier,16,8,50.0
+Qwen/Qwen1.5-1.8B-Chat,P6_V4,Balanced_Evaluation,V2_new,negated_construction:scope_quantifier,8,4,50.0
+Qwen/Qwen1.5-1.8B-Chat,P6_V4,Balanced_Evaluation,V2_new,construction:لا,120,60,50.0
+Qwen/Qwen1.5-1.8B-Chat,P6_V4,Balanced_Evaluation,V2_new,negated_construction:لا,60,30,50.0
+Qwen/Qwen1.5-1.8B-Chat,P6_V4,Balanced_Evaluation,V2_new,construction:لا / scope & quantifiers,8,4,50.0
+Qwen/Qwen1.5-1.8B-Chat,P6_V4,Balanced_Evaluation,V2_new,negated_construction:لا / scope & quantifiers,4,2,50.0
+Qwen/Qwen1.5-1.8B-Chat,P6_V4,Balanced_Evaluation,V2_new,construction:لم,16,8,50.0
+Qwen/Qwen1.5-1.8B-Chat,P6_V4,Balanced_Evaluation,V2_new,negated_construction:لم,8,4,50.0
+Qwen/Qwen1.5-1.8B-Chat,P6_V4,Balanced_Evaluation,V2_new,construction:لن,12,6,50.0
+Qwen/Qwen1.5-1.8B-Chat,P6_V4,Balanced_Evaluation,V2_new,negated_construction:لن,6,3,50.0
+Qwen/Qwen1.5-1.8B-Chat,P6_V4,Balanced_Evaluation,V2_new,construction:ليس,28,14,50.0
+Qwen/Qwen1.5-1.8B-Chat,P6_V4,Balanced_Evaluation,V2_new,negated_construction:ليس,14,7,50.0
+Qwen/Qwen1.5-1.8B-Chat,P6_V4,Balanced_Evaluation,V2_new,matched_pair,100,15,15.0
+Qwen/Qwen1.5-1.8B-Chat,P7_V2,Short_General_Control,V2_new,overall,200,98,49.0
+Qwen/Qwen1.5-1.8B-Chat,P7_V2,Short_General_Control,V2_new,polarity:affirmative,100,50,50.0
+Qwen/Qwen1.5-1.8B-Chat,P7_V2,Short_General_Control,V2_new,polarity:negated,100,48,48.0
+Qwen/Qwen1.5-1.8B-Chat,P7_V2,Short_General_Control,V2_new,origin:arabic_authored_draft,100,49,49.0
+Qwen/Qwen1.5-1.8B-Chat,P7_V2,Short_General_Control,V2_new,origin:translated_from_english,100,49,49.0
+Qwen/Qwen1.5-1.8B-Chat,P7_V2,Short_General_Control,V2_new,construction:scope_quantifier,16,8,50.0
+Qwen/Qwen1.5-1.8B-Chat,P7_V2,Short_General_Control,V2_new,negated_construction:scope_quantifier,8,4,50.0
+Qwen/Qwen1.5-1.8B-Chat,P7_V2,Short_General_Control,V2_new,construction:لا,120,60,50.0
+Qwen/Qwen1.5-1.8B-Chat,P7_V2,Short_General_Control,V2_new,negated_construction:لا,60,30,50.0
+Qwen/Qwen1.5-1.8B-Chat,P7_V2,Short_General_Control,V2_new,construction:لا / scope & quantifiers,8,4,50.0
+Qwen/Qwen1.5-1.8B-Chat,P7_V2,Short_General_Control,V2_new,negated_construction:لا / scope & quantifiers,4,2,50.0
+Qwen/Qwen1.5-1.8B-Chat,P7_V2,Short_General_Control,V2_new,construction:لم,16,8,50.0
+Qwen/Qwen1.5-1.8B-Chat,P7_V2,Short_General_Control,V2_new,negated_construction:لم,8,4,50.0
+Qwen/Qwen1.5-1.8B-Chat,P7_V2,Short_General_Control,V2_new,construction:لن,12,6,50.0
+Qwen/Qwen1.5-1.8B-Chat,P7_V2,Short_General_Control,V2_new,negated_construction:لن,6,3,50.0
+Qwen/Qwen1.5-1.8B-Chat,P7_V2,Short_General_Control,V2_new,construction:ليس,28,12,42.85714286
+Qwen/Qwen1.5-1.8B-Chat,P7_V2,Short_General_Control,V2_new,negated_construction:ليس,14,5,35.71428571
+Qwen/Qwen1.5-1.8B-Chat,P7_V2,Short_General_Control,V2_new,matched_pair,100,27,27.0
